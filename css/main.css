@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #26691e;
+    color: #000000;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2198,9 +2198,9 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 16.2rem;
-    padding-bottom: 9rem;
-    background-color: #3e3e64;
+    padding-top: 11.2rem;
+    padding-bottom: 4rem;
+    background-color: #c7d3da;
     color: #010507;
     position: relative;
 }
@@ -2368,9 +2368,18 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    padding-top: 16.2rem;
-    padding-bottom: 13.2rem;
+    padding-top: 7.2rem;
+    padding-bottom: 3.2rem;
     background-color: #FFFFFF;
+    color: #757575;
+    position: relative;
+}
+
+.s-services2 {
+    padding-top: 11.2rem;
+    padding-bottom: 12.2rem;
+    margin-bottom: 100px;
+    background-color: #c7d3da;
     color: #757575;
     position: relative;
 }
@@ -2381,6 +2390,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .services-list {
     margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .services-list .service-item {
@@ -2405,7 +2415,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #26691e;
+    color: white;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2766,7 +2776,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .clients-testimonials {
     margin-top: 4.2rem;
-    padding-top: 7.2rem;
+    padding-top: 2.2rem;
     text-align: center;
     position: relative;
 }
@@ -2794,7 +2804,7 @@ html.no-csstransitions .home-content__main {
     font-family: "lora-regular", serif;
     font-size: 3rem;
     line-height: 1.8;
-    color: #555555;
+    color: #000000;
     margin-bottom: 6rem;
 }
 
@@ -3660,5 +3670,71 @@ footer .row {
     100% { opacity: 0; }  
 }
 
+/* ===================================================================
+ * # animation-1
+ *
+ * ------------------------------------------------------------------- */
+
+.animation1-token {
+    width: 120px;
+}
+
+.background1 {
+    background-color: #c7d3da;
+}
+
+.background2{
+    background-color: white;
+}
+
+.background3 {
+    background-color: #c7d3da;
+}
+
+.step {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.step1{
+    margin-left: 100px;
+}
+
+.step2{
+    margin-left: 160px;
+}
+
+.step3{
+    margin-left: 220px;
+}
+
+
+#no1 {
+    width: 60px;
+}
+
+#no2 {
+    width: 60px;
+    display: inline-block;
+}
+
+#no3 {
+    width: 60px;
+}
+
+.step_ph {
+    display: inline-block;
+    transform: translateY(-14px);
+    font-size: 2.5em;
+    font-family: "montserrat-medium", sans-serif;
+    color: #000000;
+}
+
+.service-logo{
+    float: left;
+    width: 50px;
+    margin-top: -.6rem;
+}
 
 /*# sourceMappingURL=main.css.map */
