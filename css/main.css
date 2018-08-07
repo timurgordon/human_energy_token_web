@@ -2377,7 +2377,7 @@ html.no-csstransitions .home-content__main {
 
 .s-services2 {
     padding-top: 11.2rem;
-    padding-bottom: 12.2rem;
+    padding-bottom: 8.2rem;
     margin-bottom: 100px;
     background-color: #c7d3da;
     color: #757575;
@@ -2390,7 +2390,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .services-list {
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .services-list .service-item {
